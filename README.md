@@ -1,6 +1,3 @@
-# Cleaner
-Cleaner allows you to move your old files to the trash. There are two versions: English and French.
-
 # 🗑 File Cleaner / Nettoyeur de fichiers
 
 A Python tool with a graphical interface (Tkinter) to clean a chosen folder by sending old files to the recycle bin.  
