@@ -1,61 +1,61 @@
 # Cleaner
 Cleaner allows you to move your old files to the trash. There are two versions: English and French.
 
-English Version
-Temporary File Cleaner is a Python tool to automatically clean old files from a folder and optionally send them to the Recycle Bin.
+# 🗑 File Cleaner / Nettoyeur de fichiers
 
-Features
-Remove files older than a specified number of days.
-Option to confirm before deletion.
-Hidden and system files are ignored.
-Files are sent to the Recycle Bin; fallback to permanent deletion if needed.
-Simple graphical interface using Tkinter.
+A Python tool with a graphical interface (Tkinter) to clean a chosen folder by sending old files to the recycle bin.  
+Un outil Python avec une interface graphique (Tkinter) pour nettoyer un dossier choisi en envoyant les fichiers anciens à la corbeille.
 
-Requirements
-Python 3.x
-send2trash library
-Windows OS
+---
 
-Installation
-Install Python 3.x from python.org.
+## 🇬🇧 English
 
-Install the required library:
-pip install send2trash
+### Features
+- Choose a folder to clean.
+- Set the number of days before files are deleted.
+- Option to delete automatically or ask before each deletion.
+- Files are sent to the recycle bin (can be recovered if needed).
+- Language selection (English/French).
 
-How to Use
-Run the Python script:
-py cleanereng.py
+### Requirements
+Install the dependencies before running:
+```
+py -m pip install send2trash
+```
 
-Select the folder you want to clean.
-Enter the number of days; files older than this will be deleted.
-Check the box if you want confirmation before deletion.
-Click Start Cleaning.
+### How to Run
+```
+python cleanereng.py
+```
 
+---
 
-Version Française
-Nettoyeur de fichiers temporaires est un outil Python pour nettoyer automatiquement les fichiers anciens d’un dossier et les envoyer éventuellement à la corbeille.
+## 🇫🇷 Français
 
-Fonctionnalités
-Supprime les fichiers plus anciens qu’un nombre de jours défini.
-Option pour demander confirmation avant suppression.
-Les fichiers cachés ou système sont ignorés.
-Les fichiers sont envoyés à la corbeille ; suppression définitive si nécessaire.
-Interface graphique simple avec Tkinter.
+### Fonctionnalités
+- Choisir un dossier à nettoyer.
+- Définir le nombre de jours avant que les fichiers soient supprimés.
+- Option pour supprimer automatiquement ou demander confirmation à chaque suppression.
+- Les fichiers sont envoyés à la corbeille (ils peuvent être récupérés si besoin).
+- Sélecteur de langue (Français/Anglais).
 
-Prérequis
-Python 3.x
-Bibliothèque send2trash
-Windows
+### Prérequis
+Installez les dépendances avant de lancer :
+```
+py -m pip install send2trash
+```
 
-Installation
-Installer Python 3.x depuis python.org.
+### Lancement
+```
+python cleanerfr.py
+```
 
-Installer la bibliothèque nécessaire :
-pip install send2trash
+---
 
-Utilisation
-Lancez le script Python :
-py cleanerfr.py
+## 📌 Notes
+- Works on Windows.  
+- The program will not delete the original files permanently; they will be in the recycle bin.
+- Hidden system files like `desktop.ini` are ignored.
 
 
 Sélectionnez le dossier à nettoyer.
